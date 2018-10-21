@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>HTMLタグのまとめ</title>
+    <link rel="stylesheet" type="text/css" href="css/web2.css">
+  </head>
+
+  <body>
+    <h1 id="title">今回習ったHTMLタグ</h1>
+
+    <div class="sidebar">
+      <ul>
+        <li><a href="#id-content-structure">文章の構造を記述する</a></li>
+        <li><a href="#id-content-text-decoration">テキストを修飾する</a></li>
+        <li><a href="#id-content-itemize">箇条書き</a></li>
+        <li><a href="#id-content-link">リンク</a></li>
+        <li><a href="#id-content-image">画像</a></li>
+        <li><a href="#id-content-table">表</a></li>
+        <li><a href="#id-content-form">フォーム</a></li>
+        <li><a href="#id-content-other">その他</a></li>
+      </ul>
+    </div>
+
+    <a href="#" id="top">Top</a>
+
+    <div class="content">
+      <div class="important">
+        <p>以下は、bodyタグ内でコンテンツを記述する際に用いるタグである。<br>
+        文書型宣言、htmlタグ、headタグの記述を忘れないこと。</p>
+      </div>
+      <h2 id="id-content-structure">文章の構造を記述する</h2>
+      <div class="bb">
+      <h3>h1 ~ h6</h3>
+      <p>見出しであることを表す。<span class="alert">フレージングコンテンツ内で用いないこと。</span></p>
+      <ul>
+        <li>h1が最も上位で、h6が最も下位</li>
+        <li>一般的にh1 ~ h6の順に小さくなる</li>
+      </ul>
+      </div>
+      <div class="bb">
+      <h3>p</h3>
+      <p>段落であることを表す。<span class="alert">フレージングコンテンツ内で用いないこと。</span></p>
+    </div>
+
+      <h2 id="id-content-text-decoration">テキストを修飾する</h2>
+      <div class="bb">
+      <h3>b</h3>
+      <p>太文字で表す。</p>
+    </div>
+    <div class="bb">
+      <h3>i</h3>
+      <p>イタリック体で表す。</p>
+    </div>
+    <div class="bb">
+      <h3>strong</h3>
+      <p>強調する。ブラウザの表示上は太文字になる。</p>
+    </div>
+    <div class="bb">
+      <h3>em</h3>
+      <p>強調する。ブラウザの表示上はイタリック体になる。</p>
+    </div>
+
+      <h2 id="id-content-itemize">箇条書き</h2>
+    <div class="bb">
+      <h3>ul</h3>
+      <p>liタグと組み合わせて順序のない箇条書きを表示する。<span class="alert">フレージングコンテンツ内で用いないこと。</span><span class="alert">子要素となるのは、li。</span></p>
+    </div>
+    <div class="bb">
+      <h3>ol</h3>
+      <p>liタグと組み合わせて順序のある箇条書きを表示する。<span class="alert">フレージングコンテンツ内で用いないこと。</span><span class="alert">子要素となるのは、li。</span></p>
+    </div>
+    <div class="bb">
+      <h3>li</h3>
+      <p>箇条書きの各項目を表示する。</p>
+    </div>
+
+      <h2 id="id-content-link">リンク</h2>
+      <div class="bb">
+      <h3>a</h3>
+      <p>要素を他のWebページへのリンクとして表示する。</p>
+      <ul>
+        <li>href属性で、リンク先のページのURLを指定する。</li>
+      </ul>
+      </div>
+
+      <h2 id="id-content-image">画像</h2>
+      <div class="bb">
+      <h3>img</h3>
+      <p>画像を表示する。<span class="alert">空要素であることに注意。</span></p>
+      <ul>
+        <li>src属性で表示対象の画像のURLを指定する。</li>
+      </ul>
+    </div>
+
+      <h2 id="id-content-table">表</h2>
+      <div class="bb">
+      <h3>table</h3>
+      <p>tr, th, tdタグと組み合わせて表を表示する。<span class="alert">フレージングコンテンツ内で用いないこと。</span><span class="alert">子要素となるのは、trなど。</span></p>
+    </div>
+    <div class="bb">
+      <h3>tr</h3>
+      <p>tableタグの中で一行を表示する。<span class="alert">子要素となるのは、thおよびtd。</span></p>
+    </div>
+    <div class="bb">
+      <h3>th</h3>
+      <p>trタグの中で、ヘッダとなるセルを表示する。</p>
+    </div>
+    <div class="bb">
+      <h3>td</h3>
+      <p>trタグの中で、データとなるセルを表示する。</p>
+    </div>
+
+      <h2 id="id-content-form">フォーム</h2>
+      <div class="bb">
+      <h3>form</h3>
+      <p>Webサーバに情報を送信するフォームを表示する。<span class="alert">フレージングコンテンツ内で用いないこと。</span></p>
+    </div>
+    <div class="bb">
+      <h3>button</h3>
+      <p>ボタンを表示する。</p>
+    </div>
+    <div class="bb">
+      <h3>input</h3>
+      <p>フォーム用のコントロールを表示する。</p>
+    </div>
+    <div class="bb">
+      <h3>textarea</h3>
+      <p>複数行のテキストエリアを表示する。</p>
+    </div>
+    <div class="bb">
+      <h3>select</h3>
+      <p>選択式のメニューを表示する。<span class="alert">子要素となるのは、option。</span></p>
+    </div>
+    <div class="bb">
+      <h3>option</h3>
+      <p>selectタグの中で、個々の選択肢を表示する。</p>
+    </div>
+    <div class="bb">
+      <h3>label</h3>
+      <p>フォームのコントロールのラベルを表示する。</p>
+    </div>
+
+      <h2 id="id-content-other">その他</h2>
+      <div class="bb">
+      <h3>hr</h3>
+      <p>段落間の区切りを表示する。<span class="alert">空要素であることに注意。</span><span class="alert">フレージングコンテンツ内で用いないこと。</span></p>
+    </div>
+    <div class="bb">
+      <h3>br</h3>
+      <p>段落内で改行を表示する。<span class="alert">空要素であることに注意。</span></p>
+    </div>
+    </div>
+    <div class="footer">
+      INIAD CS Essential 2017
+    </div>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  border: solid #cccccc;
+}
+h1 {
+  margin: 0;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 10px;
+  background-color:  #444444;
+}
+
+h2 {
+  padding: 10px;
+  margin: 5;
+  display: block;
+  font-family: sans-serif;
+  border-bottom: solid #7777ee;
+  background-color: #ccccee;
+}
+
+table {
+  font-family: sans-serif;
+}
+th {
+  text-align: center;
+  display: table-cell;
+  font-family: sans-serif;
+  margin: 1;
+  background-color: #cccccc;
+}
+
+td {
+  font-family: sans-serif;
+  display: table-cell;
+  margin: 1;
+  background-color: #eeeeee;
+}
+
+form {
+  display: block;
+  font-family: sans-serif;
+  background-color: #eeeeee;
+  margin: 1;
+  padding: 1em
+}

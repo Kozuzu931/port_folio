@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="CSS/assigment11-2.css">
+  <title>none</title>
+</head>
+<body>
+<ul>
+  <li><a href="#Name">Name</a></li>
+  <li><a href="#Message">Message</a></li>
+  <li><a href="#Operating_system">Operating system</a></li>
+  <li><a href="#Browser">Browser</a></li>
+  <li><a href="#Programming_languages">Programming languages</a></li>
+</ul>
+<hr />
+  <h1>Message form</h1>
+  <form>
+    <p id="Name">
+      <label for="name">Name: </label>
+      <input id="name" type="text" name="name">
+    </p>
+    <p id="Message">
+      Message: <textarea rows="10" cols="50">Write your message here.</textarea>
+    </p>
+  </form>
+  <hr />
+  <h1>Questionnaire</h1>
+  <form action="http://cs-practice.iniad.org/htmlpost" method="post">
+    <p id="Operating_system">
+    <label for="operating">operation system: </label>
+    <input name="os" type="radio" value="windows" checked="checked">Windows:
+    <input name="os" type="radio" value="mac" checked="checked">Mac:
+    <input name="os" type="radio" value="linux" checked="checked">Linux:
+  </p>
+  <p id="Browser">
+  Browser: <select name="browser">
+    <option value="Chrome">Chrome</option>
+    <option value="Edge">Edge</option>
+    <option value="Other">Other</option>
+  </select>
+</p>
+  <p id="#Programming_languages">
+    <label for="language">Favorit programming languages: </label>
+    <input name="lang-python" type="checkbox" value="on">Python
+    <input name="lang-html" type="checkbox" value="on">HTML
+    <input name="lang-other" type="checkbox" value="on">Other
+  </p>
+  <p>
+    <input type="submit" value="Submit" />
+    <input type="reset" value="Reset" />
+  </p>
+</form>
+</body>
+</html>

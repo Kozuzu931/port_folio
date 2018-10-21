@@ -1,0 +1,30 @@
+body {
+  border: solid #7777ee;
+  margin: 0;
+  padding: 10px;
+}
+
+li {
+  display: inline-block;
+  border: solid 1px;
+  padding: 1px;
+}
+
+h1 {
+  display: block;
+  background-color: #ccccee;
+  padding: 10px;
+  border-bottom: solid #7777ee;
+}
+
+a {
+  text-decoration: none;
+}
+
+p #Name {
+  box-shadow: 1px 1px;
+}
+
+textarea {
+  box-shadow: 1px 1px;
+}
