@@ -1,0 +1,85 @@
+!# ####################################################################################################
+!# ToothGrowth
+!#
+!# The Effect of Vitamin C on Tooth Growth in Guinea Pigs
+!#
+!# Description:
+!#
+!# The response is the length of odontoblasts (cells responsible for tooth growth) in 60 guinea pigs. 
+!# Each animal received one of three dose levels of vitamin C (0.5, 1, and 2 mg/day) by 
+!# one of two delivery methods, orange juice or ascorbic acid (a form of vitamin C and coded as 1).
+!#
+!# Format
+!#
+!# A data frame with 60 observations on 3 variables.
+!# 
+!# index  name  data-type  description of columns
+!# [,0]   sn    numeric    Serial number
+!# [,1]	  len   numeric	   Tooth length
+!# [,2]	 supp	  factor     Supplement type (VC or OJ). 
+!# [,3]	 dose	  numeric	   Dose in milligrams/day
+!# 
+!# Note: we encode supp columns with 1 for VC and 2 for OJ
+!#       here
+!# ###################################################################################################
+!# sn, len, supp, dose
+1,4.2,1,0.5
+2,11.5,1,0.5
+3,7.3,1,0.5
+4,5.8,1,0.5
+5,6.4,1,0.5
+6,10,1,0.5
+7,11.2,1,0.5
+8,11.2,1,0.5
+9,5.2,1,0.5
+10,7,1,0.5
+11,16.5,1,1
+12,16.5,1,1
+13,15.2,1,1
+14,17.3,1,1
+15,22.5,1,1
+16,17.3,1,1
+17,13.6,1,1
+18,14.5,1,1
+19,18.8,1,1
+20,15.5,1,1
+21,23.6,1,2
+22,18.5,1,2
+23,33.9,1,2
+24,25.5,1,2
+25,26.4,1,2
+26,32.5,1,2
+27,26.7,1,2
+28,21.5,1,2
+29,23.3,1,2
+30,29.5,1,2
+31,15.2,2,0.5
+32,21.5,2,0.5
+33,17.6,2,0.5
+34,9.7,2,0.5
+35,14.5,2,0.5
+36,10,2,0.5
+37,8.2,2,0.5
+38,9.4,2,0.5
+39,16.5,2,0.5
+40,9.7,2,0.5
+41,19.7,2,1
+42,23.3,2,1
+43,23.6,2,1
+44,26.4,2,1
+45,20,2,1
+46,25.2,2,1
+47,25.8,2,1
+48,21.2,2,1
+49,14.5,2,1
+50,27.3,2,1
+51,25.5,2,2
+52,26.4,2,2
+53,22.4,2,2
+54,24.5,2,2
+55,24.8,2,2
+56,30.9,2,2
+57,26.4,2,2
+58,27.3,2,2
+59,29.4,2,2
+60,23,2,2
