@@ -1,0 +1,17 @@
+# 700 random births
+# Mon: 0
+# Tue: 1
+# Wed: 2
+# Thu: 3
+# Fri: 4
+# Sat: 5
+# Sun: 6
+#
+# Day   Births
+0    110
+1    124
+2    104
+3    94
+4    112
+5    72
+6    84
