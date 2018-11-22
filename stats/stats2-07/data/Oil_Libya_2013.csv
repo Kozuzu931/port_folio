@@ -1,0 +1,64 @@
+# -------------------------------------------------------------------------------------------
+# Source: Comparison between spreadsheet and specialized programs in calculating
+#         the effect of scale deposition on the well flow performance. Vol.4, No.4
+#         Journal of Petroleum & Gas Engineering, 2013 (Table 2)
+# Well : Names of the Wells
+# Type : two types of wells: Horizontal and Vertical
+# Company: four companies, Kappa Saphir, EPS Oansystem, Mellitah B. V. and MS Office Excel
+# Skin factor: The skin factor is defined to characterize the well condition and
+#              the degree of communication between the well and the reservoir.
+#
+#
+# スキン・エフェクト【英】: skin effect
+# 掘削時の泥水浸入などで坑井の坑壁近傍の油層が障害を受け浸透率が悪化すると、
+# この部位における流動坑底圧力の降下（圧力損失）が増大し、坑井の産出能力が場合により
+# 著しく低下する現象が生ずるが、これをスキン・エフェクトと称し、
+# この影響を受けた部分をスキンと呼ぶ。
+# このスキン・エフェクトの程度を示す指標としてスキン・ファクター（skin
+# factor）という係数があり、これは、ドロー・ダウン試験あるいはビルド・アップ試験などの坑井試験での圧力解析によって求められる。
+# スキン・ファクターが＋（プラス）の値であれば、上記のようになんらかの生産性障害が発生していることを示し、
+# 逆に酸処理などの坑井刺激法により、坑壁周辺の浸透率が油層本来の浸透率より改善された場合は－（マイナス）の値となる。
+# したがって、スキン・ファクターは坑井障害の程度を知るとともに、坑井刺激法の必要性の有無並びにその効果を評価するうえで
+# 極めて有用な判断材料とされている。
+# ------------------------------------------------------------------------------------------------
+Well,    Type,       Company, Skin
+  N6,HORI.OIL,"Kappa Saphir", 39.15
+ N7H,HORI.OIL,"Kappa Saphir", 12.92
+ N8H,HORI.OIL,"Kappa Saphir", 6.84
+ N9H,HORI.OIL,"Kappa Saphir", 4.13
+N10H,HORI.OIL,"Kappa Saphir", 2.59
+ N14,VERT.OIL,"Kappa Saphir", 281.43
+ N18,VERT.OIL,"Kappa Saphir", 192.78
+ N15,VERT.OIL,"Kappa Saphir", 138.23
+  N1,VERT.OIL,"Kappa Saphir", 54.21
+ N16,VERT.OIL,"Kappa Saphir", 45.65
+  N6,HORI.OIL,"EPS Oansystem",  37.77
+ N7H,HORI.OIL,"EPS Oansystem",  13.21
+ N8H,HORI.OIL,"EPS Oansystem",   7.02
+ N9H,HORI.OIL,"EPS Oansystem",   4.77
+N10H,HORI.OIL,"EPS Oansystem",   1.96
+ N14,VERT.OIL,"EPS Oansystem", 281.74
+ N18,VERT.OIL,"EPS Oansystem", 192.16
+ N15,VERT.OIL,"EPS Oansystem", 140.84
+  N1,VERT.OIL,"EPS Oansystem",  56.86
+ N16,VERT.OIL,"EPS Oansystem",  45.01
+  N6,HORI.OIL,"MS Office Excel",44.48
+ N7H,HORI.OIL,"MS Office Excel",18.34
+ N8H,HORI.OIL,"MS Office Excel",19.21
+ N9H,HORI.OIL,"MS Office Excel",11.70
+N10H,HORI.OIL,"MS Office Excel",9.25
+ N14,VERT.OIL,"MS Office Excel",317.40
+ N18,VERT.OIL,"MS Office Excel",181.44
+ N15,VERT.OIL,"MS Office Excel",154.65
+  N1,VERT.OIL,"MS Office Excel", 77.43
+ N16,VERT.OIL,"MS Office Excel", 49.37
+  N6,HORI.OIL,"Mellitah B. V.",  16.80
+ N7H,HORI.OIL,"Mellitah B. V.",  12.50
+ N8H,HORI.OIL,"Mellitah B. V.",   7.00
+ N9H,HORI.OIL,"Mellitah B. V.",   4.13
+N10H,HORI.OIL,"Mellitah B. V.",   2.40
+ N14,VERT.OIL,"Mellitah B. V.", 287.60
+ N18,VERT.OIL,"Mellitah B. V.", 193.50
+ N15,VERT.OIL,"Mellitah B. V.", 140.00
+  N1,VERT.OIL,"Mellitah B. V.",  57.30
+ N16,VERT.OIL,"Mellitah B. V.",  42.00
