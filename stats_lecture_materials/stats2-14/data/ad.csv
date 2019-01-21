@@ -1,0 +1,5 @@
+# office:営業所
+# sales:売上高[千万円]
+# ad_cost:広告費[万円]
+# salespeople:営業担当者数[人]
+office,sales,ad_cost,salespeopleA,8,500,6B,9,500,8C,13,700,10D,11,500,11E,14,800,12F,17,1200,13G,15,900,11H,12,700,9
